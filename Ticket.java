@@ -1,13 +1,14 @@
 /*
- * TICKET PROGRAM WITH BOOL VALUES
+ * TICKET PROGRAM 
  ****Algorithm
  *2D Array represents seat position in the room
- *Takes 0 or 1 as seat input
- *Outputs 0 for free and 1 for sold
+ *Takes row and column as integers for seat input
+ *Checks the taken input against the provided seats array
+ *Outputs free for 0 seat number and Booked for 1 as seat number else returns invalid.
  */
 
  //Buckle up
- import java.util.Scanner;
+ import java.util.Scanner;//input package
 
  class Ticket{
     public static void main(String[]args){
